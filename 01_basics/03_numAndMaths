@@ -1,0 +1,7 @@
+const score = 400.52
+console.log(score);
+
+const numString = score.toString();
+let numReplace = numString.replace(".","")
+// console.log(score.toFixed(1)); 
+console.log(numReplace);
